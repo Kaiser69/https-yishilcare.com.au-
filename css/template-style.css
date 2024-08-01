@@ -23,7 +23,7 @@ a.color-btn, form.customform button.color-btn {
 	background: none;
 	border: 1px solid #001925;
 	border-radius: 3px;
-	color: #001925;
+	color: #0019254f;
 	display: block;
 	font-size: 0.85em;
 	padding: 0.625em 1.25em;
@@ -206,6 +206,11 @@ p.logo strong {
 	text-align: center;
 	width: 100px;
 }
+
+#our-work i:hover {
+	background-color: #ffffff78;
+	color: #00a652;
+}
 #features h2 {
 	font-size: 1em;
 	font-weight: 600;
@@ -305,7 +310,7 @@ h2.section-title:after {
 }
 h2.section-title {
 	color: #00a652;
-	font-size: 3.8em;
+	font-size: 3.03em;
 	font-weight: 700;
 	letter-spacing: -1px;
 	margin: 0 0 .95em;
@@ -347,7 +352,7 @@ h2.section-title {
 	width: 100%;
 }
 .our-work-container:hover > .our-work-text {
-	opacity: 1;
+	opacity: .8;
 }
 .our-work-text h4 {
 	color: #fff;
@@ -452,9 +457,16 @@ a.tab-label:hover, a.tab-label.active-btn {
 	padding: 0.625em 1.25em;
 }
 .news-text p {
-	color: #777;
+	color: #272626;
 	font-size: 0.85em;
 }
+
+#news-text {
+
+	background: #f3f3f3 none repeat scroll 0 0;
+	box-shadow: 0px -10px 9px -11px rgba(0, 0, 0, 0.5);
+}
+
 #contact {
 	background: none repeat scroll 0 0 #fff;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
@@ -630,8 +642,19 @@ text-align: center;
     height: 56px;
   }
 }
+ #consultation {
+	background: #fff;
+	border-radius: 0.3125rem;
+	box-shadow: 0 0.1875rem 0.75rem rgba(0, 0, 0, 0.15);
+	transition: transform 0.2s ease-in-out;
+	overflow: hidden;
 
+}
 
+#consultation:hover{
+	transform: scale(1.05);
+	cursor: pointer;
+}
 
 
 .articles {
