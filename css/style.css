@@ -124,22 +124,13 @@ p.logo strong {
 	overflow: hidden;
 	width: 100%;
 }
-.prev-arrow, .next-arrow {
-	background: none repeat scroll 0 0 #00a652;
-	cursor: pointer;
-	float: left;
-	height: 30px;
-	line-height: 30px;
-	margin-right: 1px;
-	text-align: center;
-	width: 30px;
-}
+
 #carousel .text h2 {
 	background: none repeat scroll 0 0 #00a6539f;
 	color: #fff;
 	display: inline-block;
 	font-size: 2em;
-	font-weight: 300;
+	font-weight: 600;
 	margin: 1px 0;
 	max-width: 600px;
 	padding: 10px 20px;
